@@ -47,4 +47,3 @@ def manage_tariffs():
 def manage_payments():
     payments = Payment.query.all()  # Получаем все платежи
     return render_template('manage_payments.html', payments=payments)
-  
